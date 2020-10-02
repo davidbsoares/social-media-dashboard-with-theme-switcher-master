@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Inter">
+  <link rel="stylesheet" href="/src/main.css">
+  
+</head>
+<body>
+  <div class="container">
+    
+    <div class="heading">
+      <div class="title-box">
+        <h1 class="title-box-h1">Social Media Dashboard</h1>
+        <p class="title-box-p">Total Followers: 23,004</p>
+      </div>
+      
+      <hr>
+      
+      <div class="switch-box">
+        <label for="dark-mode" class="label-switch">
+          Dark Mode
+        </label>
+        <label class="switch">
+          <input type="checkbox" id="dark-mode" onclick="activateDarkMode()">
+          <span class="slider round"></span>          
+        </label>
+      </div>
+
+    </div>
+       
+    <div class="main-board">
+      <div class="div-social-media" id="fb-sum">      
+        <div class="div-social-media-top">
+          <img src="/images/icon-facebook.svg" alt="Facebook">
+          <p class="url-nathan">@nathanf</p>
+        </div>
+        
+        <h1 class="foll">1987</h1>
+        <p class="foll-txt">Followers</p>
+        <div class="foll-container-tdy">
+          <img src="/images/icon-up.svg" alt="+">
+          <p class="up-tdy">12 Today</p>
+        </div> 
+      </div>
+    
+      <div class="div-social-media" id="tw-sum">
+        <div class="div-social-media-top">
+          <img src="/images/icon-twitter.svg" alt="Twitter">
+          <p class="url-nathan">@nathanf</p>
+        </div>
+        
+
+        <h1 class="foll">1044</h1>
+        <p class="foll-txt">Followers</p>
+        <div class="foll-container-tdy">
+          <img src="/images/icon-up.svg" alt="+">
+          <p class="up-tdy">99 Today</p>
+        </div>
+        
+      </div>
+    
+      <div class="div-social-media" id="inst-sum">
+        <div class="div-social-media-top">
+          <img src="/images/icon-instagram.svg" alt="Instagram">
+          <p class="url-nathan">@realnathanf</p>
+        </div>    
+      
+        <h1 class="foll">11k</h1>
+        <p class="foll-txt">Followers</p>
+
+        <div class="foll-container-tdy">
+          <img src="/images/icon-up.svg" alt="+">
+          <p class="up-tdy">1099 Today</p>
+        </div>
+        
+      </div>
+    
+      <div class="div-social-media" id="yt-sum">
+        <div class="div-social-media-top">
+          <img src="/images/icon-youtube.svg" alt="Youtube">
+          <p class="url-nathan">Nathan F.</p>
+        </div>      
+
+        <h1 class="foll">8239</h1>
+        <p class="foll-txt">Subscribers</p>
+
+        <div class="foll-container-tdy">
+          <img src="/images/icon-down.svg" alt="+">
+          <p class="down-tdy">144 Today</p>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="overview">
+      <h1 class="overview-h1">Overview - Today</h1>
+    </div>
+
+    <div class="stats-overview">
+    <div class="overview-boards">
+      <div class="overview-board-left">
+        <p class="brd-lft-p">Page Views </p>     
+        <h1 class="brd-lft-h1">87</h1>
+      </div>
+      <div class="overview-board-right">        
+        <img src="/images/icon-facebook.svg" alt="Facebook">
+
+        <div class="overview-board-right-2">
+          <img src="/images/icon-up.svg" alt="+">
+          <p class="up-tdy">3%</p>
+        </div>       
+        
+      </div>
+    </div>
+  
+    <div class="overview-boards">
+      <div class="overview-board-left">
+        <p class="brd-lft-p">Likes</p>      
+        <h1 class="brd-lft-h1">52</h1>
+      </div>
+      <div class="overview-board-right">
+        <img src="/images/icon-facebook.svg" alt="Facebook">
+
+        <div class="overview-board-right-2">
+          <img src="/images/icon-down.svg" alt="+">
+          <p class="down-tdy">2%</p>
+        </div>  
+        
+      </div>
+    </div>
+  
+    <div class="overview-boards">
+      <div class="overview-board-left">
+        <p class="brd-lft-p">Likes</p>
+        <h1 class="brd-lft-h1">5462</h1>
+      </div>
+      <div class="overview-board-right">
+        <img src="/images/icon-instagram.svg" alt="Instagram">
+
+        <div class="overview-board-right-2">
+          <img src="/images/icon-up.svg" alt="+">
+          <p class="up-tdy">2257%</p>
+        </div>  
+        
+      </div>
+    </div>
+  
+    <div class="overview-boards">
+      <div class="overview-board-left">
+        <p class="brd-lft-p">Profile Views</p>
+        <h1 class="brd-lft-h1">52k</h1>
+      </div>
+      <div class="overview-board-right">
+        <img src="/images/icon-instagram.svg" alt="Instagram">
+
+        <div class="overview-board-right-2">
+          <img src="/images/icon-up.svg" alt="+">
+          <p class="up-tdy">1375%</p>
+        </div>  
+        
+      </div>
+    </div>
+  
+    <div class="overview-boards">
+      <div class="overview-board-left">
+        <p class="brd-lft-p">Retweets</p>
+        <h1 class="brd-lft-h1">117</h1>
+      </div>
+      <div class="overview-board-right">
+        <img src="/images/icon-twitter.svg" alt="Twitter">
+
+        <div class="overview-board-right-2">
+          <img src="/images/icon-up.svg" alt="+">
+          <p class="up-tdy">303%</p>
+        </div>  
+        
+      </div>
+    </div>
+  
+    <div class="overview-boards">
+      <div class="overview-board-left">
+        <p class="brd-lft-p">Likes</p>
+        <h1 class="brd-lft-h1">507</h1>
+      </div>
+      <div class="overview-board-right">
+        <img src="/images/icon-twitter.svg" alt="Twitter">
+
+        <div class="overview-board-right-2">
+          <img src="/images/icon-up.svg" alt="+">
+          <p class="up-tdy">553%</p>
+        </div>  
+        
+      </div>
+    </div>
+  
+    <div class="overview-boards">
+      <div class="overview-board-left">
+        <p class="brd-lft-p">Likes</p>
+        <h1 class="brd-lft-h1">107</h1>
+      </div>
+      <div class="overview-board-right">
+        <img src="/images/icon-youtube.svg" alt="Youtube">
+
+        <div class="overview-board-right-2">
+          <img src="/images/icon-down.svg" alt="+">
+          <p class="down-tdy">19%</p>
+        </div>  
+        
+      </div>
+    </div>
+  
+    <div class="overview-boards">
+      <div class="overview-board-left">
+        <p class="brd-lft-p">Total Views</p>
+        <h1 class="brd-lft-h1">1407</h1>
+      </div>
+      <div class="overview-board-right">
+        <img src="/images/icon-youtube.svg" alt="Youtube">
+
+        <div class="overview-board-right-2">
+          <img src="/images/icon-down.svg" alt="+">
+          <p class="down-tdy">12%</p>
+        </div>  
+        
+      </div>
+    </div>
+
+    </div>  
+  
+  </div>
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">David Brum Soares</a>.
+  </div> -->
+
+  <script src="src/activateDarkMode.js"></script>
+</body>
+</html>

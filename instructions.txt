@@ -1,0 +1,26 @@
+mudar cores dos textos:
+ - title-box p
+ - div-social-media-top p
+ - overview
+ - overview-boards-left h1
+
+para white
+
+mudar cores dos textos:
+ - title-box h1
+ - foll e foll-txt
+ - overview
+ - overview-boards-left p
+
+para --color-desaturated-blue-text
+
+mudar background de:
+ - container
+ 
+para background-image: linear-gradient(to bottom, var(--color-very-dark-blue-top-bg) 25%, var(--color-very-dark-blue-bg) 50%);
+
+mudar background de
+ - div-social-media
+ - overview-boards
+
+para --color-dark-desaturated-blue-card-bg
